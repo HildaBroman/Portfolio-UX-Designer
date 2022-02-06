@@ -1,0 +1,646 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+   
+    font-family: Helvetica, Arial,Sans-serif;
+}
+
+/*MENYSYSTEM*/
+#mainNav {
+    height:50px; 
+    width:100%; 
+    position:relative; 
+    border-radius:20px;  
+}
+
+/*MENYSYSTEMETS UTSEENDE*/
+#menuList li {
+    float:left; 
+    list-style:none;
+    position: static;
+}
+
+/*MENYSYSTEMETS FÄRG OCH FONT*/
+#menuList li a {
+    font:15px helvetica; 
+    text-decoration: none; 
+    padding: 5px 16px; 
+    margin-right: 20px; 
+    font-weight: bold;
+}
+
+/*HOVERFÄRG VID MENYN*/
+#menuList a:hover {
+    font:15px; 
+    color:white; 
+    background-color:#800080; 
+    text-decoration: none; 
+    border-radius: 60px; 
+    font-weight: bold;
+}
+
+
+.fixed{ /* headerruta aka menyn */
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100px;
+    margin-top: -10px;
+    
+}
+/*fixa länkar i en lista*/
+#menuList2 li {
+    float:right; 
+    list-style:none;  
+    text-align: center;
+}
+/*font i länkar*/
+#menuList2 li a{
+    font:15px; 
+    text-decoration: none; 
+}
+
+/*HOVERFÄRG för länkar*/
+#menuList2 a:hover {
+    text-decoration: none; 
+    color:#800080; 
+    float: top; 
+    text-align: center; 
+    border-radius: 60px;
+}
+
+/*startförg för länkar*/
+#menuList2 a:link {
+    text-decoration: none; 
+    color:#000000; 
+    float: top; 
+    text-align: center; 
+    border-radius: 60px;
+}
+/*FOOTER*/
+
+#footerList li {
+    float: right; 
+    list-style: none;  
+    text-align: center;
+}
+
+#footerList li a{
+    font:15px; 
+    text-decoration: none; 
+}
+
+/*HOVERFÄRG VID FOOTER*/
+#footerList a:hover {
+    text-decoration: none; 
+    color:#800080; 
+    float: top; 
+    text-align: center; 
+    border-radius: 60px;
+}
+
+/*startförg VID FOOTER*/
+#footerList a:link {
+    text-decoration: none; 
+    color:#000000; 
+    float: top; 
+    text-align: center; 
+    border-radius: 60px;
+}
+
+#stilren {
+width: 100%;
+}
+/*stilren*/
+#stilren a:link {
+    text-decoration: none;
+    list-style:none;
+}
+
+#stilren li {
+    text-decoration: none;
+    list-style:none;
+    font:15px; 
+    text-align: left;
+    margin-left: 5%;
+    padding: 5px 0;
+    
+}
+
+#stilren a:hover {
+    text-decoration: none; 
+    color:#800080; 
+    float: top; 
+    text-align: center; 
+    border-radius: 60px;
+}
+/*stilren1*/
+#stilren1 a:link {
+    text-decoration: none;
+    list-style:none;
+}
+
+#stilren1 li {
+    text-decoration: none;
+    list-style:none;
+    font:15px helvetica; 
+    text-align: left;
+    padding: 5px 10px; 
+    margin-right: 20px; 
+
+}
+
+#stilren1 a:hover {
+    text-decoration: none; 
+    color:#800080; 
+    float: top; 
+    text-align: center; 
+    border-radius: 60px;
+}
+#stilren3 a:link {
+    text-decoration: none;
+    list-style:none;
+}
+
+#stilren3 li {
+    text-decoration: none;
+    list-style:none;
+    font:15px helvetica; 
+    text-align: left;
+}
+
+#stilren3 a:hover {
+    text-decoration: none; 
+    color:#800080; 
+    float: top; 
+    text-align: center; 
+    border-radius: 60px;
+}
+
+
+#menuList3 li {
+    float:left; 
+    list-style:none;
+    position: static;
+    padding: 5px 40px; 
+    margin-left: -80px;
+
+}
+
+/*MENYSYSTEMETS FÄRG OCH FONT*/
+#menuList3 li a {
+    font:15px helvetica; 
+    text-decoration: none; 
+    padding: 5px 16px; 
+    margin-right: 20px; 
+    font-weight: bold;
+    box-shadow: 5px 5px #a7a7a7;
+    border-style: bold #6b6b6b;
+}
+
+/*HOVERFÄRG VID MENYN*/
+#menuList3 a:hover {
+    font:15px; 
+    color:white; 
+    background-color:#800080; 
+    text-decoration: none; 
+    border-radius: 60px; 
+    font-weight: bold;
+}
+
+#icon {
+    height: 40px;
+    width: 40px;
+    color: black;
+    padding: 5px;
+    margin-top: 7px;
+    margin-left: -30%;
+}
+
+#mail{
+    height: 35px;
+    width: 40px;
+    padding: 5px;
+    margin-top: 3px;
+    margin-bottom: -10px;
+    margin-left: -30%;
+}
+
+#mail3{
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    margin-top: 3px;
+    margin-bottom: -10px;
+    margin-left: -30%;
+}
+
+.row{
+    display: flex;
+}
+
+.row1{
+    display: flex;
+}
+
+
+.header { /*menyn*/
+    background-color:rgb(255, 255, 255);
+    padding: 0px;
+    text-align: center;
+    font-size: 35px;
+    display: flex;
+    height: 100px;
+    align-items: flex-start;
+
+
+  }
+
+.lilaKnapp{
+    background-color:#D4E6E8;
+    border-radius: 60px;
+    color: rgb(0, 0, 0);
+    /* box-shadow: 3px 3px #a7a7a7 */
+  } 
+
+
+
+.svartKnapp{
+    color: black;
+    border-radius: 60px;
+   /* box-shadow: 3px 3px #a7a7a7 */
+}
+
+.hilda{
+    width: 100%;
+    max-width: 100%;
+}
+
+.hilda1{
+    width: 100%;
+    max-width: 100%;
+}
+.portfolioHeader1{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.movie{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolioHeader2{
+    padding: 30px;
+    display: flex;
+    margin-bottom: 60px;
+    flex-direction: column;
+    width: 80%;
+    margin-top: auto;
+    margin-left: 20px;
+
+}
+/*
+.wcag{
+    width: 100%;
+}
+*/
+/*
+.lofi{
+    width: 60%; 
+}
+*/
+
+.lofi1{
+    text-align: center;
+}
+
+
+.krav{ /*center för allt text i portfolio*/
+    width: 50%;
+    text-align: left;
+    margin-left: 300px;   
+}
+
+.bildCenter{ /*center för alla bilder i Portfolio*/
+    width: 100%;  
+    display: flex;
+    justify-content: center;
+}
+
+.column1{ /*vänster ruta på CV*/
+    padding: 30px;
+    background-color: #D4E6E8;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-top: 0px;
+    margin-left: 100px;
+    border-radius: 20px; /*gör kanten mjuk*/
+}
+
+.column2{ /*innehåller CV Rubrik*/
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+}
+
+.column13{ /*Main boxar för Portfolio*/
+    padding: 10px;
+    width: 100%;
+
+    text-align: center;
+}
+
+.wrapper{ /*höger ruta på CV*/
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    float: left;
+    background: #ffffff;
+    width: 80%;
+    height: 100%;
+    margin-left: 20px;
+    padding: 30px;
+}
+
+
+
+.wrapper1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    float: right;
+    background: #D4E6E8;
+    width:50%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+.flyttaUpp{
+    margin-bottom: -15px;
+}
+
+.footer {
+    margin-right: 0px;
+    position: fixed;
+    bottom: 0px;
+    right: 30px;
+    height: 100px;
+  }
+
+#mail1{
+    height: 40px;
+    width: 45px;
+    color: black;
+    padding: 5px;
+    margin-top: 7px;
+}
+
+.kontaktuppgifter{
+    text-align: center;
+    margin-left: 5px;
+    background-color: aqua;
+}
+
+#big{
+    font-size: xxx-large;
+}
+
+#big1{
+    font-size: xx-large;
+}
+
+.indrag{
+    padding-left: 26px;
+}
+
+.line1{
+   width: 100%;
+   height: 1px;
+   color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+
+.portfolioInnehåll{
+    text-align: center;
+
+}
+
+@media screen and (max-width: 992px) {
+    .box {
+      flex: 50%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .content {
+      flex-direction: column;
+      font-size: 30px;
+    }
+  
+  img{
+      width: 100%;
+      height: auto;
+  }
+}
+
+/*CV*/
+
+/*Header*/
+@media screen and (max-width: 600px) {/*Header knappar*/
+    #menuList {
+        font-size: 20px;
+        padding: 0px 0;
+        height: 0px;
+    }
+
+@media screen and (max-width: 600px) {/*Header vittspace litet*/
+    .fixed {
+        height: 50px;
+    }            
+
+
+/* CV vänster*/
+@media screen and (max-width: 600px) { /* hur cv vänster ser ut som liten i mobil*/
+    div.column1 {
+      font-size: 8px;
+      margin-left: 0px;
+      padding: 10px;
+      margin-top: -35px;
+      height: 30%;
+    }
+
+@media screen and (max-width: 600px) { /*rubriker som är flyttade*/
+    .flyttaUpp {
+        font-size: 10px;
+        padding: 13px 0;
+    }
+
+        @media screen and (max-width: 600px) { /*kontaktuppgifter*/
+            #stilren {
+              padding: 2px 0px;
+            }
+
+        @media screen and (max-width: 600px) { /*kontaktuppgifter lista text*/
+            #stilren li {
+              font-size: 8px;
+              padding: 2px 0px;
+            }
+
+        @media screen and (max-width: 600px) { /*kontaktuppgifter ikoner försvinna*/
+            #stilren img{
+              display: none;
+            }      
+
+            @media screen and (max-width: 600px) { /*kontaktuppgifter ikoner försvinna*/
+                .column1 h2 {
+                font-size: 8px;
+                }  
+                
+                @media screen and (max-width: 600px) { /*kontaktuppgifter ikoner försvinna*/
+                    .column1 hr {
+                    color: #a0a0a0;
+                    } 
+           
+
+         /*   @media screen and (max-width: 600px) { 
+                #stilren img {
+                  margin-left: 0px;
+                  float: left;
+                  width: 10px;
+                height: auto;
+                }
+        */
+    
+    /*CV Höger*/    
+    @media screen and (max-width: 600px) { /*CV Rubrik och brödtext höger column*/
+    .wrapper {
+    font-size: 10px;
+     padding: 6px 0;
+     margin-left: 10px;
+     margin-top: -50px;
+    }
+    
+    @media screen and (max-width: 600px) { /*CV Rubriker Hilda Broman*/
+        #big {
+         font-size: 20px;
+         padding: 6px 0;
+        }
+
+    @media screen and (max-width: 600px) { /*CV Rubriker UX Designer*/
+            #big1 {
+             font-size: 15px;
+             padding: 6px 0;
+            }
+
+@media screen and (max-width: 600px) {
+    .footer {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 12%;
+    right: -10px;
+    position: fixed;
+}   
+/*Footer*/
+@media screen and (max-width: 600px) {
+    #footerList li {
+        font-size: 9px;
+        margin-top: -12%;
+        padding: 8px;
+    } 
+    
+/*Indexsidan*/
+
+/*Centrering alla columner i index*/
+@media screen and (max-width: 600px) {
+    .column13 {
+        font-size: 15px;
+        margin-left: 0px;
+    }  
+    
+    @media screen and (max-width: 600px) {
+        .columnTOP {
+            font-size: 10px;
+            margin-left: 0px;
+            width: 100%;
+        }  
+       
+        @media screen and (max-width: 600px) {
+            .krav {
+                font-size: 10px;
+                margin-left: 0px;
+                width: 100%;
+            }  
+            
+            @media screen and (max-width: 600px) {
+                .tidslinje {
+                width: 100%;
+                height: auto;
+                }     
+                
+/*Index intro*/
+
+@media screen and (max-width: 600px) {
+    .portfolioHeader1 {
+        font-size: 10px;
+        margin-left: 0px;
+        width: 200px;
+        margin-left: 20%;
+        margin-top: -25%;
+    } 
+    @media screen and (max-width: 600px) {
+        .portfolioHeader1 img{
+        width: 100%;
+        height: auto;
+        } 
+
+@media screen and (max-width: 600px) {
+    .portfolioHeader2 {
+        font-size: 10px;
+        text-align: left;
+        margin-top: -10%;
+        margin-left: 15%;
+    }     
+    @media screen and (max-width: 600px) {
+        .row1 {
+        flex-direction: column;  
+        }   
+
+        @media screen and (max-width: 600px) {
+            #menuList3 {  
+            width: 100%;
+            height: 100px;
+            float:left; 
+            }
+
+            @media screen and (max-width: 600px) {
+                #menuList3 li a {  
+                    font-size: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    box-shadow: 2px 2px #a7a7a7;
+                    border-style: bold #6b6b6b;
+                    width: 170px;
+
+                }
+                @media screen and (max-width: 600px) { /*knappar*/
+                    #stilren1 {
+                    padding: 15px 0;
+                    margin-left: 0%;
+                    width: 100%;
+                    margin-top: -10%;  
+                }
