@@ -7,6 +7,11 @@ body{
     color: #080825;
 }
 
+.blue{
+    color: #0e0ed2;
+    text-decoration: underline;
+}
+
 /*MENYSYSTEM*/
 #mainNav {
     height:50px; 
